@@ -1,0 +1,92 @@
+*{
+  box-sizing: content-box;
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  padding: inherit;
+
+}
+
+html{
+  background-image: url(Immagini/schermo.jpg);
+  background-size: cover;
+
+}
+
+body{
+ width: 60%;
+ padding: 10px;
+ background: rgba(0, 0, 0, 0.5);
+ border-radius: 16px;
+ border: 1px solid rgba(70, 59, 59, 1);
+ margin-top: 30px;
+
+
+}
+header{
+  text-align: center;
+}
+#logo{
+  width: 250px;
+
+}
+
+#titolo{
+  color: lime;
+
+}
+
+#barranavigazione{
+ background-color: lime;
+ box-sizing: border-box;
+ width: 90%;
+ padding: 5px;
+ text-align: center;
+
+}
+
+
+main{
+  color: white;
+  text-align: left;
+  padding: 5px;
+}
+
+
+h3{
+  display: inline-block;
+
+}
+
+.caricamonopattino1 {
+  width: 30%;
+  padding: 15px;
+  background: peru;
+  border-radius: 10px;
+  margin-left: 30px;
+  box-sizing: border-box;
+
+}
+
+.caricamonopattino2{
+  width: 60%;
+  padding: 15px;
+  background: limegreen;
+  border-radius: 10px;
+  margin-left: 30px;
+  box-sizing: border-box;
+
+}
+
+.caricamonopattino3{
+  width: 10%;
+  padding: 15px;
+  background: maroon;
+  border-radius: 10px;
+  margin-left: 30px;
+  box-sizing: border-box;
+
+}
+ p, input {
+   margin-left: 30px;
+
+ }
